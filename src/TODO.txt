@@ -1,0 +1,2 @@
+#TODO: add better error comments when incorrect values entered, right now its too vague.
+#TODO: edit value check to ensure values as positive (i.e., not zero).

@@ -1,5 +1,12 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    println("Testing shape code...")
+    val shapes: List<Shape> = listOf(
+        Square("Square1"),
+        Square("Square2"),
+        Circle("Circle1"),
+        Circle("Circle2")
+    )
+    for (shape in shapes) {
+        shape.setDimensions()
+        shape.printDimensions()
+    }
 }
